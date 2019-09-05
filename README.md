@@ -1,5 +1,7 @@
 # Temporal Clustering of Fast Coronal Mass Ejections
 
+NOTE: These codes will be updated within the week. The new routines are simpler and more efficient. - 9/4/19
+
 Minimum Requirements:
 
     Python 3.5.2
