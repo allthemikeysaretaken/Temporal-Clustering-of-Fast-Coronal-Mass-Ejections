@@ -71,7 +71,7 @@ We then calculated the moment estimator of the extremal index as a function of s
 Once these clusters have been obtained, we can note various cluster statistics. These include relative statistics, such as the average cluster size and duration, as well as histograms of the intra-cluster times (time in-between events within a cluster), intra-cluster durations (duration of cluster), and inter-cluster durations (time in-between clusters). 
 
 
-![Relative Clustering Statistics](https://imgur.com/7QpEnaD)    
+![Relative Clustering Statistics](https://i.imgur.com/7QpEnaD.png)    
 
 ![Intra-Event Times](https://i.imgur.com/B6rs5Nf.png)    
 
