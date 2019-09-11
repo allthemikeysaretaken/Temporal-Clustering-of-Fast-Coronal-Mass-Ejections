@@ -78,9 +78,9 @@ Once these clusters have been obtained, we can note various cluster statistics. 
 ![Intra-Cluster Durations](https://i.imgur.com/VF7Madz.png)    
 
 
-[Previous results in the literature](https://arxiv.org/abs/1110.1787) suggest that a single AR cannot produce more than one fast CME within a time-interval of 15 hours and that the average waiting time for same-AR CMEs is 8 hours. Our results are consistent with this observation. However, we also find multiple extreme events that occur within time-scales less than 15 hours and some less than 8 hours; some are only one hour apart! To resolve this, we suggest that these extreme events separated by time-scales less than 15 hours are produced by networks of multiple ARs; this was the case for many of the observed extreme events and has also [been observed independently](https://arxiv.org/abs/1505.01384).
+[Previous results in the literature](https://arxiv.org/abs/1110.1787) suggest that a single AR cannot produce more than one fast CME within a time-interval of 15 hours and that the average waiting time for same-AR CMEs is 8 hours. Our results are consistent with this observation. However, we also find multiple extreme events that occur within time-scales less than 15 hours and some less than 8 hours; some are only one hour apart! To resolve this, we suggest that these extreme events separated by time-scales less than 15 hours are produced by networks of multiple ARs; this was the case for many of the observed extreme events and has also [been observed independently](https://arxiv.org/abs/1505.01384). 
 
-
+Understanding the origin and time of initiation of CMEs is very important in the context of space-weather forecasting. One can expand upon this analysis by correlating specific clusters of ARs with specific clusters of extreme events such that one can predict clusters of extreme events from observations of AR clusters. 
 
 
 
