@@ -1,0 +1,2395 @@
+
+CME CLUSTER DATA:
+	SC23_v20ri Time Threshold = 9 hours
+
+
+ ** CLUSTER #1 (size=2):
+
+ .. DATETIMEs:
+[datetime.datetime(1999, 3, 7, 23, 54, 5)
+ datetime.datetime(1999, 3, 8, 1, 26, 54)]
+
+ .. ELAPSED HOURs:
+[727 729]
+
+ .. SPEEDs:
+[ 825 1077]
+
+----------
+
+ ** CLUSTER #2 (size=2):
+
+ .. DATETIMEs:
+[datetime.datetime(1999, 4, 2, 6, 6, 5)
+ datetime.datetime(1999, 4, 2, 8, 30, 5)]
+
+ .. ELAPSED HOURs:
+[1334 1336]
+
+ .. SPEEDs:
+[ 851 1229]
+
+----------
+
+ ** CLUSTER #3 (size=2):
+
+ .. DATETIMEs:
+[datetime.datetime(1999, 4, 3, 21, 30, 8)
+ datetime.datetime(1999, 4, 4, 5, 30, 5)]
+
+ .. ELAPSED HOURs:
+[1373 1381]
+
+ .. SPEEDs:
+[ 933 1525]
+
+----------
+
+ ** CLUSTER #4 (size=2):
+
+ .. DATETIMEs:
+[datetime.datetime(1999, 4, 5, 12, 30, 5)
+ datetime.datetime(1999, 4, 5, 19, 31, 20)]
+
+ .. ELAPSED HOURs:
+[1412 1419]
+
+ .. SPEEDs:
+[891 893]
+
+----------
+
+ ** CLUSTER #5 (size=2):
+
+ .. DATETIMEs:
+[datetime.datetime(1999, 4, 24, 11, 6, 5)
+ datetime.datetime(1999, 4, 24, 13, 31, 15)]
+
+ .. ELAPSED HOURs:
+[1867 1869]
+
+ .. SPEEDs:
+[ 966 1352]
+
+----------
+
+ ** CLUSTER #6 (size=2):
+
+ .. DATETIMEs:
+[datetime.datetime(1999, 5, 9, 23, 50, 6)
+ datetime.datetime(1999, 5, 10, 5, 50, 5)]
+
+ .. ELAPSED HOURs:
+[2239 2245]
+
+ .. SPEEDs:
+[ 943 1027]
+
+----------
+
+ ** CLUSTER #7 (size=2):
+
+ .. DATETIMEs:
+[datetime.datetime(1999, 5, 27, 11, 6, 5)
+ datetime.datetime(1999, 5, 27, 16, 26, 7)]
+
+ .. ELAPSED HOURs:
+[2659 2664]
+
+ .. SPEEDs:
+[1849  818]
+
+----------
+
+ ** CLUSTER #8 (size=2):
+
+ .. DATETIMEs:
+[datetime.datetime(1999, 6, 4, 0, 50, 6)
+ datetime.datetime(1999, 6, 4, 7, 26, 54)]
+
+ .. ELAPSED HOURs:
+[2840 2847]
+
+ .. SPEEDs:
+[ 969 2506]
+
+----------
+
+ ** CLUSTER #9 (size=3):
+
+ .. DATETIMEs:
+[datetime.datetime(1999, 6, 15, 23, 54, 36)
+ datetime.datetime(1999, 6, 16, 3, 54, 6)
+ datetime.datetime(1999, 6, 16, 4, 54, 5)]
+
+ .. ELAPSED HOURs:
+[3127 3131 3132]
+
+ .. SPEEDs:
+[ 922 1576  979]
+
+----------
+
+ ** CLUSTER #10 (size=2):
+
+ .. DATETIMEs:
+[datetime.datetime(1999, 6, 28, 19, 31, 21)
+ datetime.datetime(1999, 6, 28, 21, 30, 8)]
+
+ .. ELAPSED HOURs:
+[3435 3437]
+
+ .. SPEEDs:
+[804 946]
+
+----------
+
+ ** CLUSTER #11 (size=2):
+
+ .. DATETIMEs:
+[datetime.datetime(1999, 7, 25, 6, 54, 5)
+ datetime.datetime(1999, 7, 25, 13, 31, 21)]
+
+ .. ELAPSED HOURs:
+[4070 4077]
+
+ .. SPEEDs:
+[1335 1483]
+
+----------
+
+ ** CLUSTER #12 (size=2):
+
+ .. DATETIMEs:
+[datetime.datetime(1999, 8, 14, 18, 30, 5)
+ datetime.datetime(1999, 8, 15, 0, 54, 6)]
+
+ .. ELAPSED HOURs:
+[4562 4568]
+
+ .. SPEEDs:
+[926 819]
+
+----------
+
+ ** CLUSTER #13 (size=2):
+
+ .. DATETIMEs:
+[datetime.datetime(1999, 8, 21, 16, 50, 5)
+ datetime.datetime(1999, 8, 21, 22, 26, 5)]
+
+ .. ELAPSED HOURs:
+[4728 4734]
+
+ .. SPEEDs:
+[1115 1493]
+
+----------
+
+ ** CLUSTER #14 (size=3):
+
+ .. DATETIMEs:
+[datetime.datetime(1999, 8, 27, 20, 26, 5)
+ datetime.datetime(1999, 8, 28, 0, 50, 5)
+ datetime.datetime(1999, 8, 28, 1, 26, 48)]
+
+ .. ELAPSED HOURs:
+[4876 4880 4881]
+
+ .. SPEEDs:
+[ 947  987 1331]
+
+----------
+
+ ** CLUSTER #15 (size=3):
+
+ .. DATETIMEs:
+[datetime.datetime(1999, 9, 9, 14, 6, 5)
+ datetime.datetime(1999, 9, 9, 18, 24, 39)
+ datetime.datetime(1999, 9, 9, 21, 54, 5)]
+
+ .. ELAPSED HOURs:
+[5182 5186 5189]
+
+ .. SPEEDs:
+[ 921  878 1166]
+
+----------
+
+ ** CLUSTER #16 (size=2):
+
+ .. DATETIMEs:
+[datetime.datetime(1999, 9, 10, 6, 30, 5)
+ datetime.datetime(1999, 9, 10, 7, 54, 5)]
+
+ .. ELAPSED HOURs:
+[5198 5199]
+
+ .. SPEEDs:
+[ 813 1597]
+
+----------
+
+ ** CLUSTER #17 (size=3):
+
+ .. DATETIMEs:
+[datetime.datetime(1999, 9, 11, 21, 54, 5)
+ datetime.datetime(1999, 9, 12, 2, 6, 5)
+ datetime.datetime(1999, 9, 12, 4, 30, 5)]
+
+ .. ELAPSED HOURs:
+[5237 5242 5244]
+
+ .. SPEEDs:
+[1766  878 1757]
+
+----------
+
+ ** CLUSTER #18 (size=2):
+
+ .. DATETIMEs:
+[datetime.datetime(1999, 9, 15, 9, 54, 6)
+ datetime.datetime(1999, 9, 15, 14, 30, 5)]
+
+ .. ELAPSED HOURs:
+[5321 5326]
+
+ .. SPEEDs:
+[801 953]
+
+----------
+
+ ** CLUSTER #19 (size=3):
+
+ .. DATETIMEs:
+[datetime.datetime(1999, 9, 16, 0, 6, 5)
+ datetime.datetime(1999, 9, 16, 8, 54, 15)
+ datetime.datetime(1999, 9, 16, 10, 30, 26)]
+
+ .. ELAPSED HOURs:
+[5336 5344 5346]
+
+ .. SPEEDs:
+[963 914 915]
+
+----------
+
+ ** CLUSTER #20 (size=2):
+
+ .. DATETIMEs:
+[datetime.datetime(1999, 10, 22, 19, 26, 45)
+ datetime.datetime(1999, 10, 23, 1, 26, 51)]
+
+ .. ELAPSED HOURs:
+[6219 6225]
+
+ .. SPEEDs:
+[ 864 1160]
+
+----------
+
+ ** CLUSTER #21 (size=2):
+
+ .. DATETIMEs:
+[datetime.datetime(1999, 12, 27, 2, 6, 5)
+ datetime.datetime(1999, 12, 27, 9, 30, 5)]
+
+ .. ELAPSED HOURs:
+[7786 7793]
+
+ .. SPEEDs:
+[931 863]
+
+----------
+
+ ** CLUSTER #22 (size=2):
+
+ .. DATETIMEs:
+[datetime.datetime(2000, 1, 16, 5, 30, 5)
+ datetime.datetime(2000, 1, 16, 6, 54, 5)]
+
+ .. ELAPSED HOURs:
+[8269 8270]
+
+ .. SPEEDs:
+[865 827]
+
+----------
+
+ ** CLUSTER #23 (size=2):
+
+ .. DATETIMEs:
+[datetime.datetime(2000, 1, 17, 16, 54, 5)
+ datetime.datetime(2000, 1, 18, 0, 54, 5)]
+
+ .. ELAPSED HOURs:
+[8304 8312]
+
+ .. SPEEDs:
+[800 900]
+
+----------
+
+ ** CLUSTER #24 (size=2):
+
+ .. DATETIMEs:
+[datetime.datetime(2000, 1, 26, 5, 6, 6)
+ datetime.datetime(2000, 1, 26, 11, 54, 5)]
+
+ .. ELAPSED HOURs:
+[8509 8515]
+
+ .. SPEEDs:
+[961 815]
+
+----------
+
+ ** CLUSTER #25 (size=3):
+
+ .. DATETIMEs:
+[datetime.datetime(2000, 2, 9, 19, 54, 17)
+ datetime.datetime(2000, 2, 10, 2, 30, 5)
+ datetime.datetime(2000, 2, 10, 9, 54, 5)]
+
+ .. ELAPSED HOURs:
+[8859 8866 8873]
+
+ .. SPEEDs:
+[919 885 812]
+
+----------
+
+ ** CLUSTER #26 (size=2):
+
+ .. DATETIMEs:
+[datetime.datetime(2000, 2, 26, 6, 6, 5)
+ datetime.datetime(2000, 2, 26, 12, 30, 5)]
+
+ .. ELAPSED HOURs:
+[9254 9260]
+
+ .. SPEEDs:
+[954 860]
+
+----------
+
+ ** CLUSTER #27 (size=3):
+
+ .. DATETIMEs:
+[datetime.datetime(2000, 3, 3, 23, 54, 5)
+ datetime.datetime(2000, 3, 4, 3, 57, 14)
+ datetime.datetime(2000, 3, 4, 9, 54, 5)]
+
+ .. ELAPSED HOURs:
+[9415 9419 9425]
+
+ .. SPEEDs:
+[ 871  967 1088]
+
+----------
+
+ ** CLUSTER #28 (size=2):
+
+ .. DATETIMEs:
+[datetime.datetime(2000, 3, 7, 13, 31, 25)
+ datetime.datetime(2000, 3, 7, 18, 54, 5)]
+
+ .. ELAPSED HOURs:
+[9501 9506]
+
+ .. SPEEDs:
+[803 836]
+
+----------
+
+ ** CLUSTER #29 (size=2):
+
+ .. DATETIMEs:
+[datetime.datetime(2000, 3, 18, 23, 54, 5)
+ datetime.datetime(2000, 3, 19, 2, 6, 5)]
+
+ .. ELAPSED HOURs:
+[9775 9778]
+
+ .. SPEEDs:
+[1351  952]
+
+----------
+
+ ** CLUSTER #30 (size=2):
+
+ .. DATETIMEs:
+[datetime.datetime(2000, 4, 4, 16, 32, 37)
+ datetime.datetime(2000, 4, 5, 0, 6, 5)]
+
+ .. ELAPSED HOURs:
+[10176 10184]
+
+ .. SPEEDs:
+[1142  916]
+
+----------
+
+ ** CLUSTER #31 (size=2):
+
+ .. DATETIMEs:
+[datetime.datetime(2000, 4, 22, 15, 30, 5)
+ datetime.datetime(2000, 4, 22, 21, 54, 5)]
+
+ .. ELAPSED HOURs:
+[10607 10613]
+
+ .. SPEEDs:
+[ 968 1233]
+
+----------
+
+ ** CLUSTER #32 (size=2):
+
+ .. DATETIMEs:
+[datetime.datetime(2000, 5, 2, 11, 54, 5)
+ datetime.datetime(2000, 5, 2, 15, 6, 6)]
+
+ .. ELAPSED HOURs:
+[10843 10847]
+
+ .. SPEEDs:
+[ 948 1483]
+
+----------
+
+ ** CLUSTER #33 (size=2):
+
+ .. DATETIMEs:
+[datetime.datetime(2000, 5, 3, 0, 50, 6)
+ datetime.datetime(2000, 5, 3, 2, 6, 5)]
+
+ .. ELAPSED HOURs:
+[10856 10858]
+
+ .. SPEEDs:
+[996 873]
+
+----------
+
+ ** CLUSTER #34 (size=2):
+
+ .. DATETIMEs:
+[datetime.datetime(2000, 5, 4, 4, 50, 5)
+ datetime.datetime(2000, 5, 4, 11, 26, 5)]
+
+ .. ELAPSED HOURs:
+[10884 10891]
+
+ .. SPEEDs:
+[1253 1256]
+
+----------
+
+ ** CLUSTER #35 (size=2):
+
+ .. DATETIMEs:
+[datetime.datetime(2000, 5, 5, 1, 50, 5)
+ datetime.datetime(2000, 5, 5, 5, 6, 5)]
+
+ .. ELAPSED HOURs:
+[10905 10909]
+
+ .. SPEEDs:
+[965 809]
+
+----------
+
+ ** CLUSTER #36 (size=3):
+
+ .. DATETIMEs:
+[datetime.datetime(2000, 5, 7, 9, 26, 5)
+ datetime.datetime(2000, 5, 7, 16, 6, 7)
+ datetime.datetime(2000, 5, 7, 20, 50, 7)]
+
+ .. ELAPSED HOURs:
+[10961 10968 10972]
+
+ .. SPEEDs:
+[ 861  979 2111]
+
+----------
+
+ ** CLUSTER #37 (size=3):
+
+ .. DATETIMEs:
+[datetime.datetime(2000, 5, 15, 5, 26, 5)
+ datetime.datetime(2000, 5, 15, 8, 50, 5)
+ datetime.datetime(2000, 5, 15, 16, 26, 5)]
+
+ .. ELAPSED HOURs:
+[11149 11152 11160]
+
+ .. SPEEDs:
+[1078 1582 1352]
+
+----------
+
+ ** CLUSTER #38 (size=2):
+
+ .. DATETIMEs:
+[datetime.datetime(2000, 5, 17, 3, 6, 6)
+ datetime.datetime(2000, 5, 17, 8, 50, 5)]
+
+ .. ELAPSED HOURs:
+[11195 11200]
+
+ .. SPEEDs:
+[ 844 1270]
+
+----------
+
+ ** CLUSTER #39 (size=2):
+
+ .. DATETIMEs:
+[datetime.datetime(2000, 6, 15, 1, 50, 5)
+ datetime.datetime(2000, 6, 15, 8, 50, 5)]
+
+ .. ELAPSED HOURs:
+[11889 11896]
+
+ .. SPEEDs:
+[1005  812]
+
+----------
+
+ ** CLUSTER #40 (size=3):
+
+ .. DATETIMEs:
+[datetime.datetime(2000, 6, 25, 1, 31, 54)
+ datetime.datetime(2000, 6, 25, 7, 54, 13)
+ datetime.datetime(2000, 6, 25, 9, 54, 5)]
+
+ .. ELAPSED HOURs:
+[12129 12135 12137]
+
+ .. SPEEDs:
+[ 994 1692  814]
+
+----------
+
+ ** CLUSTER #41 (size=2):
+
+ .. DATETIMEs:
+[datetime.datetime(2000, 7, 2, 13, 27, 25)
+ datetime.datetime(2000, 7, 2, 16, 6, 7)]
+
+ .. ELAPSED HOURs:
+[12309 12312]
+
+ .. SPEEDs:
+[884 823]
+
+----------
+
+ ** CLUSTER #42 (size=2):
+
+ .. DATETIMEs:
+[datetime.datetime(2000, 7, 16, 5, 30, 5)
+ datetime.datetime(2000, 7, 16, 6, 54, 6)]
+
+ .. ELAPSED HOURs:
+[12637 12638]
+
+ .. SPEEDs:
+[906 984]
+
+----------
+
+ ** CLUSTER #43 (size=2):
+
+ .. DATETIMEs:
+[datetime.datetime(2000, 7, 27, 19, 54, 6)
+ datetime.datetime(2000, 7, 27, 20, 6, 5)]
+
+ .. ELAPSED HOURs:
+[12915 12916]
+
+ .. SPEEDs:
+[1051 1414]
+
+----------
+
+ ** CLUSTER #44 (size=3):
+
+ .. DATETIMEs:
+[datetime.datetime(2000, 7, 28, 18, 30, 5)
+ datetime.datetime(2000, 7, 28, 21, 8, 9)
+ datetime.datetime(2000, 7, 28, 22, 30, 5)]
+
+ .. ELAPSED HOURs:
+[12938 12941 12942]
+
+ .. SPEEDs:
+[ 935 1159  924]
+
+----------
+
+ ** CLUSTER #45 (size=2):
+
+ .. DATETIMEs:
+[datetime.datetime(2000, 8, 8, 7, 31, 54)
+ datetime.datetime(2000, 8, 8, 15, 54, 6)]
+
+ .. ELAPSED HOURs:
+[13191 13199]
+
+ .. SPEEDs:
+[1090  997]
+
+----------
+
+ ** CLUSTER #46 (size=2):
+
+ .. DATETIMEs:
+[datetime.datetime(2000, 8, 16, 23, 54, 5)
+ datetime.datetime(2000, 8, 17, 4, 54, 5)]
+
+ .. ELAPSED HOURs:
+[13399 13404]
+
+ .. SPEEDs:
+[801 842]
+
+----------
+
+ ** CLUSTER #47 (size=2):
+
+ .. DATETIMEs:
+[datetime.datetime(2000, 8, 18, 4, 54, 5)
+ datetime.datetime(2000, 8, 18, 10, 55, 4)]
+
+ .. ELAPSED HOURs:
+[13428 13434]
+
+ .. SPEEDs:
+[ 926 1130]
+
+----------
+
+ ** CLUSTER #48 (size=2):
+
+ .. DATETIMEs:
+[datetime.datetime(2000, 8, 22, 0, 30, 7)
+ datetime.datetime(2000, 8, 22, 4, 6, 5)]
+
+ .. ELAPSED HOURs:
+[13520 13524]
+
+ .. SPEEDs:
+[1044  845]
+
+----------
+
+ ** CLUSTER #49 (size=2):
+
+ .. DATETIMEs:
+[datetime.datetime(2000, 9, 12, 11, 54, 5)
+ datetime.datetime(2000, 9, 12, 17, 30, 5)]
+
+ .. ELAPSED HOURs:
+[14035 14041]
+
+ .. SPEEDs:
+[1265 1174]
+
+----------
+
+ ** CLUSTER #50 (size=2):
+
+ .. DATETIMEs:
+[datetime.datetime(2000, 9, 16, 5, 18, 14)
+ datetime.datetime(2000, 9, 16, 13, 50, 5)]
+
+ .. ELAPSED HOURs:
+[14125 14133]
+
+ .. SPEEDs:
+[1268 1271]
+
+----------
+
+ ** CLUSTER #51 (size=2):
+
+ .. DATETIMEs:
+[datetime.datetime(2000, 9, 27, 1, 50, 5)
+ datetime.datetime(2000, 9, 27, 3, 26, 5)]
+
+ .. ELAPSED HOURs:
+[14385 14387]
+
+ .. SPEEDs:
+[961 970]
+
+----------
+
+ ** CLUSTER #52 (size=2):
+
+ .. DATETIMEs:
+[datetime.datetime(2000, 10, 7, 17, 50, 5)
+ datetime.datetime(2000, 10, 7, 21, 50, 5)]
+
+ .. ELAPSED HOURs:
+[14641 14645]
+
+ .. SPEEDs:
+[1008  963]
+
+----------
+
+ ** CLUSTER #53 (size=3):
+
+ .. DATETIMEs:
+[datetime.datetime(2000, 10, 26, 5, 26, 7)
+ datetime.datetime(2000, 10, 26, 7, 50, 5)
+ datetime.datetime(2000, 10, 26, 11, 50, 5)]
+
+ .. ELAPSED HOURs:
+[15085 15087 15091]
+
+ .. SPEEDs:
+[ 994  939 1149]
+
+----------
+
+ ** CLUSTER #54 (size=2):
+
+ .. DATETIMEs:
+[datetime.datetime(2000, 11, 5, 12, 6, 6)
+ datetime.datetime(2000, 11, 5, 16, 6, 5)]
+
+ .. ELAPSED HOURs:
+[15332 15336]
+
+ .. SPEEDs:
+[858 812]
+
+----------
+
+ ** CLUSTER #55 (size=3):
+
+ .. DATETIMEs:
+[datetime.datetime(2000, 11, 21, 6, 54, 5)
+ datetime.datetime(2000, 11, 21, 13, 31, 53)
+ datetime.datetime(2000, 11, 21, 14, 54, 5)]
+
+ .. ELAPSED HOURs:
+[15710 15717 15718]
+
+ .. SPEEDs:
+[1199  806 1311]
+
+----------
+
+ ** CLUSTER #56 (size=2):
+
+ .. DATETIMEs:
+[datetime.datetime(2000, 11, 22, 2, 6, 5)
+ datetime.datetime(2000, 11, 22, 4, 30, 5)]
+
+ .. ELAPSED HOURs:
+[15730 15732]
+
+ .. SPEEDs:
+[864 906]
+
+----------
+
+ ** CLUSTER #57 (size=2):
+
+ .. DATETIMEs:
+[datetime.datetime(2001, 1, 28, 9, 30, 5)
+ datetime.datetime(2001, 1, 28, 15, 54, 5)]
+
+ .. ELAPSED HOURs:
+[17345 17351]
+
+ .. SPEEDs:
+[801 884]
+
+----------
+
+ ** CLUSTER #58 (size=2):
+
+ .. DATETIMEs:
+[datetime.datetime(2001, 3, 30, 2, 50, 5)
+ datetime.datetime(2001, 3, 30, 3, 26, 6)]
+
+ .. ELAPSED HOURs:
+[18802 18803]
+
+ .. SPEEDs:
+[941 972]
+
+----------
+
+ ** CLUSTER #59 (size=2):
+
+ .. DATETIMEs:
+[datetime.datetime(2001, 4, 2, 22, 6, 7)
+ datetime.datetime(2001, 4, 3, 3, 26, 5)]
+
+ .. ELAPSED HOURs:
+[18894 18899]
+
+ .. SPEEDs:
+[2193 1694]
+
+----------
+
+ ** CLUSTER #60 (size=3):
+
+ .. DATETIMEs:
+[datetime.datetime(2001, 4, 4, 5, 26, 6)
+ datetime.datetime(2001, 4, 4, 9, 50, 5)
+ datetime.datetime(2001, 4, 4, 16, 50, 5)]
+
+ .. ELAPSED HOURs:
+[18925 18929 18936]
+
+ .. SPEEDs:
+[ 917  915 1036]
+
+----------
+
+ ** CLUSTER #61 (size=3):
+
+ .. DATETIMEs:
+[datetime.datetime(2001, 4, 5, 2, 6, 6)
+ datetime.datetime(2001, 4, 5, 9, 6, 6)
+ datetime.datetime(2001, 4, 5, 17, 6, 5)]
+
+ .. ELAPSED HOURs:
+[18946 18953 18961]
+
+ .. SPEEDs:
+[2240 1802 1503]
+
+----------
+
+ ** CLUSTER #62 (size=2):
+
+ .. DATETIMEs:
+[datetime.datetime(2001, 4, 11, 13, 31, 48)
+ datetime.datetime(2001, 4, 11, 17, 30, 5)]
+
+ .. ELAPSED HOURs:
+[19101 19105]
+
+ .. SPEEDs:
+[1179  992]
+
+----------
+
+ ** CLUSTER #63 (size=2):
+
+ .. DATETIMEs:
+[datetime.datetime(2001, 4, 14, 17, 54, 5)
+ datetime.datetime(2001, 4, 15, 0, 30, 5)]
+
+ .. ELAPSED HOURs:
+[19177 19184]
+
+ .. SPEEDs:
+[868 817]
+
+----------
+
+ ** CLUSTER #64 (size=2):
+
+ .. DATETIMEs:
+[datetime.datetime(2001, 4, 21, 8, 21, 53)
+ datetime.datetime(2001, 4, 21, 13, 27, 13)]
+
+ .. ELAPSED HOURs:
+[19336 19341]
+
+ .. SPEEDs:
+[1088 1113]
+
+----------
+
+ ** CLUSTER #65 (size=2):
+
+ .. DATETIMEs:
+[datetime.datetime(2001, 4, 22, 14, 33, 4)
+ datetime.datetime(2001, 4, 22, 21, 26, 11)]
+
+ .. ELAPSED HOURs:
+[19366 19373]
+
+ .. SPEEDs:
+[ 842 1168]
+
+----------
+
+ ** CLUSTER #66 (size=3):
+
+ .. DATETIMEs:
+[datetime.datetime(2001, 4, 26, 8, 30, 5)
+ datetime.datetime(2001, 4, 26, 12, 30, 5)
+ datetime.datetime(2001, 4, 26, 13, 31, 44)]
+
+ .. ELAPSED HOURs:
+[19456 19460 19461]
+
+ .. SPEEDs:
+[ 893  854 1072]
+
+----------
+
+ ** CLUSTER #67 (size=2):
+
+ .. DATETIMEs:
+[datetime.datetime(2001, 4, 29, 7, 31, 42)
+ datetime.datetime(2001, 4, 29, 14, 54, 5)]
+
+ .. ELAPSED HOURs:
+[19527 19534]
+
+ .. SPEEDs:
+[886 926]
+
+----------
+
+ ** CLUSTER #68 (size=2):
+
+ .. DATETIMEs:
+[datetime.datetime(2001, 5, 9, 20, 30, 5)
+ datetime.datetime(2001, 5, 10, 1, 31, 40)]
+
+ .. ELAPSED HOURs:
+[19780 19785]
+
+ .. SPEEDs:
+[815 956]
+
+----------
+
+ ** CLUSTER #69 (size=2):
+
+ .. DATETIMEs:
+[datetime.datetime(2001, 5, 25, 17, 26, 6)
+ datetime.datetime(2001, 5, 25, 21, 26, 9)]
+
+ .. ELAPSED HOURs:
+[20161 20165]
+
+ .. SPEEDs:
+[900 987]
+
+----------
+
+ ** CLUSTER #70 (size=2):
+
+ .. DATETIMEs:
+[datetime.datetime(2001, 5, 29, 16, 26, 5)
+ datetime.datetime(2001, 5, 30, 0, 6, 7)]
+
+ .. ELAPSED HOURs:
+[20256 20264]
+
+ .. SPEEDs:
+[ 867 2265]
+
+----------
+
+ ** CLUSTER #71 (size=2):
+
+ .. DATETIMEs:
+[datetime.datetime(2001, 6, 8, 11, 54, 5)
+ datetime.datetime(2001, 6, 8, 15, 30, 5)]
+
+ .. ELAPSED HOURs:
+[20491 20495]
+
+ .. SPEEDs:
+[1459 1070]
+
+----------
+
+ ** CLUSTER #72 (size=2):
+
+ .. DATETIMEs:
+[datetime.datetime(2001, 6, 15, 10, 31, 33)
+ datetime.datetime(2001, 6, 15, 15, 56, 27)]
+
+ .. ELAPSED HOURs:
+[20658 20663]
+
+ .. SPEEDs:
+[1015 1449]
+
+----------
+
+ ** CLUSTER #73 (size=2):
+
+ .. DATETIMEs:
+[datetime.datetime(2001, 6, 18, 22, 46, 55)
+ datetime.datetime(2001, 6, 19, 3, 54, 5)]
+
+ .. ELAPSED HOURs:
+[20742 20747]
+
+ .. SPEEDs:
+[1388  962]
+
+----------
+
+ ** CLUSTER #74 (size=3):
+
+ .. DATETIMEs:
+[datetime.datetime(2001, 6, 20, 0, 30, 5)
+ datetime.datetime(2001, 6, 20, 4, 6, 6)
+ datetime.datetime(2001, 6, 20, 8, 9)]
+
+ .. ELAPSED HOURs:
+[20768 20772 20776]
+
+ .. SPEEDs:
+[ 872  925 1031]
+
+----------
+
+ ** CLUSTER #75 (size=2):
+
+ .. DATETIMEs:
+[datetime.datetime(2001, 6, 20, 19, 54, 5)
+ datetime.datetime(2001, 6, 20, 22, 30, 5)]
+
+ .. ELAPSED HOURs:
+[20787 20790]
+
+ .. SPEEDs:
+[1548  955]
+
+----------
+
+ ** CLUSTER #76 (size=2):
+
+ .. DATETIMEs:
+[datetime.datetime(2001, 7, 20, 22, 22, 35)
+ datetime.datetime(2001, 7, 21, 5, 18, 15)]
+
+ .. ELAPSED HOURs:
+[21510 21517]
+
+ .. SPEEDs:
+[814 918]
+
+----------
+
+ ** CLUSTER #77 (size=2):
+
+ .. DATETIMEs:
+[datetime.datetime(2001, 7, 21, 21, 30, 9)
+ datetime.datetime(2001, 7, 22, 3, 18, 5)]
+
+ .. ELAPSED HOURs:
+[21533 21539]
+
+ .. SPEEDs:
+[917 966]
+
+----------
+
+ ** CLUSTER #78 (size=2):
+
+ .. DATETIMEs:
+[datetime.datetime(2001, 8, 17, 8, 6, 5)
+ datetime.datetime(2001, 8, 17, 15, 30, 5)]
+
+ .. ELAPSED HOURs:
+[22168 22175]
+
+ .. SPEEDs:
+[ 904 1069]
+
+----------
+
+ ** CLUSTER #79 (size=2):
+
+ .. DATETIMEs:
+[datetime.datetime(2001, 11, 17, 0, 30, 5)
+ datetime.datetime(2001, 11, 17, 5, 30, 6)]
+
+ .. ELAPSED HOURs:
+[24368 24373]
+
+ .. SPEEDs:
+[ 823 1505]
+
+----------
+
+ ** CLUSTER #80 (size=2):
+
+ .. DATETIMEs:
+[datetime.datetime(2001, 11, 22, 20, 30, 33)
+ datetime.datetime(2001, 11, 22, 23, 30, 5)]
+
+ .. ELAPSED HOURs:
+[24508 24511]
+
+ .. SPEEDs:
+[1662 1503]
+
+----------
+
+ ** CLUSTER #81 (size=2):
+
+ .. DATETIMEs:
+[datetime.datetime(2001, 12, 26, 2, 6, 5)
+ datetime.datetime(2001, 12, 26, 5, 30, 5)]
+
+ .. ELAPSED HOURs:
+[25306 25309]
+
+ .. SPEEDs:
+[ 836 1604]
+
+----------
+
+ ** CLUSTER #82 (size=2):
+
+ .. DATETIMEs:
+[datetime.datetime(2002, 2, 20, 3, 30, 5)
+ datetime.datetime(2002, 2, 20, 6, 30, 5)]
+
+ .. ELAPSED HOURs:
+[26651 26654]
+
+ .. SPEEDs:
+[ 909 1047]
+
+----------
+
+ ** CLUSTER #83 (size=2):
+
+ .. DATETIMEs:
+[datetime.datetime(2002, 3, 14, 17, 6, 6)
+ datetime.datetime(2002, 3, 15, 1, 31, 45)]
+
+ .. ELAPSED HOURs:
+[27193 27201]
+
+ .. SPEEDs:
+[1132  921]
+
+----------
+
+ ** CLUSTER #84 (size=2):
+
+ .. DATETIMEs:
+[datetime.datetime(2002, 3, 17, 20, 6, 5)
+ datetime.datetime(2002, 3, 18, 2, 54, 6)]
+
+ .. ELAPSED HOURs:
+[27268 27274]
+
+ .. SPEEDs:
+[ 890 1006]
+
+----------
+
+ ** CLUSTER #85 (size=2):
+
+ .. DATETIMEs:
+[datetime.datetime(2002, 3, 22, 11, 6, 5)
+ datetime.datetime(2002, 3, 22, 19, 31, 41)]
+
+ .. ELAPSED HOURs:
+[27379 27387]
+
+ .. SPEEDs:
+[1814  820]
+
+----------
+
+ ** CLUSTER #86 (size=2):
+
+ .. DATETIMEs:
+[datetime.datetime(2002, 3, 26, 13, 31, 45)
+ datetime.datetime(2002, 3, 26, 17, 6, 5)]
+
+ .. ELAPSED HOURs:
+[27477 27481]
+
+ .. SPEEDs:
+[908 972]
+
+----------
+
+ ** CLUSTER #87 (size=2):
+
+ .. DATETIMEs:
+[datetime.datetime(2002, 3, 28, 8, 30, 5)
+ datetime.datetime(2002, 3, 28, 13, 31, 42)]
+
+ .. ELAPSED HOURs:
+[27520 27525]
+
+ .. SPEEDs:
+[1074  923]
+
+----------
+
+ ** CLUSTER #88 (size=2):
+
+ .. DATETIMEs:
+[datetime.datetime(2002, 4, 2, 11, 10, 5)
+ datetime.datetime(2002, 4, 2, 15, 5, 6)]
+
+ .. ELAPSED HOURs:
+[27643 27646]
+
+ .. SPEEDs:
+[1112  951]
+
+----------
+
+ ** CLUSTER #89 (size=2):
+
+ .. DATETIMEs:
+[datetime.datetime(2002, 4, 14, 23, 26, 5)
+ datetime.datetime(2002, 4, 15, 3, 6, 5)]
+
+ .. ELAPSED HOURs:
+[27943 27947]
+
+ .. SPEEDs:
+[859 877]
+
+----------
+
+ ** CLUSTER #90 (size=2):
+
+ .. DATETIMEs:
+[datetime.datetime(2002, 4, 17, 7, 27, 21)
+ datetime.datetime(2002, 4, 17, 8, 26, 5)]
+
+ .. ELAPSED HOURs:
+[27999 28000]
+
+ .. SPEEDs:
+[1002 1373]
+
+----------
+
+ ** CLUSTER #91 (size=2):
+
+ .. DATETIMEs:
+[datetime.datetime(2002, 4, 22, 0, 38, 35)
+ datetime.datetime(2002, 4, 22, 1, 18, 31)]
+
+ .. ELAPSED HOURs:
+[28112 28113]
+
+ .. SPEEDs:
+[1336  968]
+
+----------
+
+ ** CLUSTER #92 (size=2):
+
+ .. DATETIMEs:
+[datetime.datetime(2002, 4, 29, 5, 50, 5)
+ datetime.datetime(2002, 4, 29, 12, 26, 5)]
+
+ .. ELAPSED HOURs:
+[28285 28292]
+
+ .. SPEEDs:
+[1249  965]
+
+----------
+
+ ** CLUSTER #93 (size=2):
+
+ .. DATETIMEs:
+[datetime.datetime(2002, 4, 30, 2, 6, 5)
+ datetime.datetime(2002, 4, 30, 10, 26, 5)]
+
+ .. ELAPSED HOURs:
+[28306 28314]
+
+ .. SPEEDs:
+[891 837]
+
+----------
+
+ ** CLUSTER #94 (size=2):
+
+ .. DATETIMEs:
+[datetime.datetime(2002, 5, 2, 22, 6, 5)
+ datetime.datetime(2002, 5, 2, 23, 18, 13)]
+
+ .. ELAPSED HOURs:
+[28374 28375]
+
+ .. SPEEDs:
+[ 857 1087]
+
+----------
+
+ ** CLUSTER #95 (size=2):
+
+ .. DATETIMEs:
+[datetime.datetime(2002, 5, 6, 6, 6, 6)
+ datetime.datetime(2002, 5, 6, 13, 50, 5)]
+
+ .. ELAPSED HOURs:
+[28454 28461]
+
+ .. SPEEDs:
+[820 874]
+
+----------
+
+ ** CLUSTER #96 (size=2):
+
+ .. DATETIMEs:
+[datetime.datetime(2002, 5, 10, 16, 50, 5)
+ datetime.datetime(2002, 5, 10, 17, 6, 5)]
+
+ .. ELAPSED HOURs:
+[28560 28561]
+
+ .. SPEEDs:
+[1063  910]
+
+----------
+
+ ** CLUSTER #97 (size=3):
+
+ .. DATETIMEs:
+[datetime.datetime(2002, 5, 21, 21, 50, 5)
+ datetime.datetime(2002, 5, 22, 0, 6, 6)
+ datetime.datetime(2002, 5, 22, 3, 50, 5)]
+
+ .. ELAPSED HOURs:
+[28829 28832 28835]
+
+ .. SPEEDs:
+[ 900 1156 1611]
+
+----------
+
+ ** CLUSTER #98 (size=3):
+
+ .. DATETIMEs:
+[datetime.datetime(2002, 5, 27, 13, 27, 18)
+ datetime.datetime(2002, 5, 27, 20, 50, 5)
+ datetime.datetime(2002, 5, 27, 23, 26, 6)]
+
+ .. ELAPSED HOURs:
+[28965 28972 28975]
+
+ .. SPEEDs:
+[1091  864 1023]
+
+----------
+
+ ** CLUSTER #99 (size=3):
+
+ .. DATETIMEs:
+[datetime.datetime(2002, 6, 5, 12, 43, 35)
+ datetime.datetime(2002, 6, 5, 19, 54, 6)
+ datetime.datetime(2002, 6, 6, 3, 6, 5)]
+
+ .. ELAPSED HOURs:
+[29180 29187 29195]
+
+ .. SPEEDs:
+[ 969 1129  821]
+
+----------
+
+ ** CLUSTER #100 (size=2):
+
+ .. DATETIMEs:
+[datetime.datetime(2002, 7, 15, 20, 30, 5)
+ datetime.datetime(2002, 7, 15, 21, 30, 5)]
+
+ .. ELAPSED HOURs:
+[30148 30149]
+
+ .. SPEEDs:
+[1326 1337]
+
+----------
+
+ ** CLUSTER #101 (size=3):
+
+ .. DATETIMEs:
+[datetime.datetime(2002, 7, 18, 8, 6, 8)
+ datetime.datetime(2002, 7, 18, 12, 6, 9)
+ datetime.datetime(2002, 7, 18, 19, 31, 47)]
+
+ .. ELAPSED HOURs:
+[30208 30212 30219]
+
+ .. SPEEDs:
+[1268  894 2612]
+
+----------
+
+ ** CLUSTER #102 (size=2):
+
+ .. DATETIMEs:
+[datetime.datetime(2002, 7, 23, 21, 6, 46)
+ datetime.datetime(2002, 7, 24, 4, 6, 8)]
+
+ .. ELAPSED HOURs:
+[30341 30348]
+
+ .. SPEEDs:
+[1249 1005]
+
+----------
+
+ ** CLUSTER #103 (size=3):
+
+ .. DATETIMEs:
+[datetime.datetime(2002, 8, 4, 8, 6, 8)
+ datetime.datetime(2002, 8, 4, 15, 6, 8)
+ datetime.datetime(2002, 8, 4, 21, 30, 9)]
+
+ .. ELAPSED HOURs:
+[30616 30623 30629]
+
+ .. SPEEDs:
+[ 894  806 1106]
+
+----------
+
+ ** CLUSTER #104 (size=3):
+
+ .. DATETIMEs:
+[datetime.datetime(2002, 8, 14, 2, 30, 5)
+ datetime.datetime(2002, 8, 14, 10, 54, 5)
+ datetime.datetime(2002, 8, 14, 16, 54, 5)]
+
+ .. ELAPSED HOURs:
+[30850 30858 30864]
+
+ .. SPEEDs:
+[1447  903  854]
+
+----------
+
+ ** CLUSTER #105 (size=3):
+
+ .. DATETIMEs:
+[datetime.datetime(2002, 8, 15, 22, 30, 5)
+ datetime.datetime(2002, 8, 16, 6, 6, 5)
+ datetime.datetime(2002, 8, 16, 12, 30, 5)]
+
+ .. ELAPSED HOURs:
+[30894 30902 30908]
+
+ .. SPEEDs:
+[ 813 1401 1901]
+
+----------
+
+ ** CLUSTER #106 (size=2):
+
+ .. DATETIMEs:
+[datetime.datetime(2002, 8, 17, 1, 31, 49)
+ datetime.datetime(2002, 8, 17, 5, 30, 5)]
+
+ .. ELAPSED HOURs:
+[30921 30925]
+
+ .. SPEEDs:
+[851 948]
+
+----------
+
+ ** CLUSTER #107 (size=2):
+
+ .. DATETIMEs:
+[datetime.datetime(2002, 8, 18, 8, 6, 5)
+ datetime.datetime(2002, 8, 18, 16, 54, 5)]
+
+ .. ELAPSED HOURs:
+[30952 30960]
+
+ .. SPEEDs:
+[ 834 1179]
+
+----------
+
+ ** CLUSTER #108 (size=2):
+
+ .. DATETIMEs:
+[datetime.datetime(2002, 8, 20, 1, 54, 5)
+ datetime.datetime(2002, 8, 20, 8, 54, 31)]
+
+ .. ELAPSED HOURs:
+[30993 31000]
+
+ .. SPEEDs:
+[ 946 1262]
+
+----------
+
+ ** CLUSTER #109 (size=2):
+
+ .. DATETIMEs:
+[datetime.datetime(2002, 9, 16, 16, 30, 5)
+ datetime.datetime(2002, 9, 16, 20, 30, 5)]
+
+ .. ELAPSED HOURs:
+[31656 31660]
+
+ .. SPEEDs:
+[1047  962]
+
+----------
+
+ ** CLUSTER #110 (size=2):
+
+ .. DATETIMEs:
+[datetime.datetime(2002, 9, 25, 0, 54, 5)
+ datetime.datetime(2002, 9, 25, 4, 6, 6)]
+
+ .. ELAPSED HOURs:
+[31856 31860]
+
+ .. SPEEDs:
+[ 879 1093]
+
+----------
+
+ ** CLUSTER #111 (size=2):
+
+ .. DATETIMEs:
+[datetime.datetime(2002, 9, 26, 21, 30, 9)
+ datetime.datetime(2002, 9, 27, 1, 54, 5)]
+
+ .. ELAPSED HOURs:
+[31901 31905]
+
+ .. SPEEDs:
+[ 805 1706]
+
+----------
+
+ ** CLUSTER #112 (size=3):
+
+ .. DATETIMEs:
+[datetime.datetime(2002, 10, 23, 2, 50, 5)
+ datetime.datetime(2002, 10, 23, 3, 50, 5)
+ datetime.datetime(2002, 10, 23, 9, 6, 5)]
+
+ .. ELAPSED HOURs:
+[32530 32531 32537]
+
+ .. SPEEDs:
+[1061  922  818]
+
+----------
+
+ ** CLUSTER #113 (size=2):
+
+ .. DATETIMEs:
+[datetime.datetime(2002, 10, 30, 22, 26, 5)
+ datetime.datetime(2002, 10, 31, 2, 6, 6)]
+
+ .. ELAPSED HOURs:
+[32718 32722]
+
+ .. SPEEDs:
+[ 953 1052]
+
+----------
+
+ ** CLUSTER #114 (size=3):
+
+ .. DATETIMEs:
+[datetime.datetime(2002, 10, 31, 11, 26, 5)
+ datetime.datetime(2002, 10, 31, 15, 26, 5)
+ datetime.datetime(2002, 10, 31, 17, 6, 5)]
+
+ .. ELAPSED HOURs:
+[32731 32735 32737]
+
+ .. SPEEDs:
+[ 981 1234 1283]
+
+----------
+
+ ** CLUSTER #115 (size=2):
+
+ .. DATETIMEs:
+[datetime.datetime(2002, 11, 11, 7, 54, 5)
+ datetime.datetime(2002, 11, 11, 15, 54, 5)]
+
+ .. ELAPSED HOURs:
+[32991 32999]
+
+ .. SPEEDs:
+[1199  930]
+
+----------
+
+ ** CLUSTER #116 (size=2):
+
+ .. DATETIMEs:
+[datetime.datetime(2002, 11, 12, 19, 42, 8)
+ datetime.datetime(2002, 11, 12, 21, 54, 5)]
+
+ .. ELAPSED HOURs:
+[33027 33029]
+
+ .. SPEEDs:
+[921 994]
+
+----------
+
+ ** CLUSTER #117 (size=2):
+
+ .. DATETIMEs:
+[datetime.datetime(2002, 12, 26, 14, 54, 5)
+ datetime.datetime(2002, 12, 26, 18, 30, 5)]
+
+ .. ELAPSED HOURs:
+[34078 34082]
+
+ .. SPEEDs:
+[ 931 1036]
+
+----------
+
+ ** CLUSTER #118 (size=2):
+
+ .. DATETIMEs:
+[datetime.datetime(2002, 12, 30, 1, 54, 5)
+ datetime.datetime(2002, 12, 30, 3, 6, 5)]
+
+ .. ELAPSED HOURs:
+[34161 34163]
+
+ .. SPEEDs:
+[936 834]
+
+----------
+
+ ** CLUSTER #119 (size=2):
+
+ .. DATETIMEs:
+[datetime.datetime(2003, 1, 21, 11, 54, 24)
+ datetime.datetime(2003, 1, 21, 15, 30, 5)]
+
+ .. ELAPSED HOURs:
+[34699 34703]
+
+ .. SPEEDs:
+[ 823 1247]
+
+----------
+
+ ** CLUSTER #120 (size=2):
+
+ .. DATETIMEs:
+[datetime.datetime(2003, 1, 22, 23, 54, 5)
+ datetime.datetime(2003, 1, 23, 2, 54, 7)]
+
+ .. ELAPSED HOURs:
+[34735 34738]
+
+ .. SPEEDs:
+[1561  853]
+
+----------
+
+ ** CLUSTER #121 (size=2):
+
+ .. DATETIMEs:
+[datetime.datetime(2003, 1, 26, 18, 54, 10)
+ datetime.datetime(2003, 1, 27, 2, 6, 5)]
+
+ .. ELAPSED HOURs:
+[34826 34834]
+
+ .. SPEEDs:
+[1690  821]
+
+----------
+
+ ** CLUSTER #122 (size=2):
+
+ .. DATETIMEs:
+[datetime.datetime(2003, 2, 13, 15, 54, 5)
+ datetime.datetime(2003, 2, 13, 16, 6, 5)]
+
+ .. ELAPSED HOURs:
+[35255 35256]
+
+ .. SPEEDs:
+[ 899 1283]
+
+----------
+
+ ** CLUSTER #123 (size=2):
+
+ .. DATETIMEs:
+[datetime.datetime(2003, 2, 15, 10, 35, 39)
+ datetime.datetime(2003, 2, 15, 15, 54, 5)]
+
+ .. ELAPSED HOURs:
+[35298 35303]
+
+ .. SPEEDs:
+[916 850]
+
+----------
+
+ ** CLUSTER #124 (size=2):
+
+ .. DATETIMEs:
+[datetime.datetime(2003, 4, 2, 1, 54, 5)
+ datetime.datetime(2003, 4, 2, 3, 54, 5)]
+
+ .. ELAPSED HOURs:
+[36393 36395]
+
+ .. SPEEDs:
+[901 866]
+
+----------
+
+ ** CLUSTER #125 (size=2):
+
+ .. DATETIMEs:
+[datetime.datetime(2003, 4, 3, 17, 30, 5)
+ datetime.datetime(2003, 4, 3, 19, 54, 5)]
+
+ .. ELAPSED HOURs:
+[36433 36435]
+
+ .. SPEEDs:
+[1066  996]
+
+----------
+
+ ** CLUSTER #126 (size=2):
+
+ .. DATETIMEs:
+[datetime.datetime(2003, 4, 4, 10, 6, 5)
+ datetime.datetime(2003, 4, 4, 13, 54, 5)]
+
+ .. ELAPSED HOURs:
+[36450 36453]
+
+ .. SPEEDs:
+[801 877]
+
+----------
+
+ ** CLUSTER #127 (size=2):
+
+ .. DATETIMEs:
+[datetime.datetime(2003, 4, 14, 8, 50, 5)
+ datetime.datetime(2003, 4, 14, 9, 26, 5)]
+
+ .. ELAPSED HOURs:
+[36688 36689]
+
+ .. SPEEDs:
+[941 840]
+
+----------
+
+ ** CLUSTER #128 (size=2):
+
+ .. DATETIMEs:
+[datetime.datetime(2003, 4, 18, 4, 50, 5)
+ datetime.datetime(2003, 4, 18, 7, 50, 5)]
+
+ .. ELAPSED HOURs:
+[36780 36783]
+
+ .. SPEEDs:
+[1161 1072]
+
+----------
+
+ ** CLUSTER #129 (size=2):
+
+ .. DATETIMEs:
+[datetime.datetime(2003, 4, 22, 2, 48, 5)
+ datetime.datetime(2003, 4, 22, 7, 36, 37)]
+
+ .. ELAPSED HOURs:
+[36874 36879]
+
+ .. SPEEDs:
+[833 994]
+
+----------
+
+ ** CLUSTER #130 (size=2):
+
+ .. DATETIMEs:
+[datetime.datetime(2003, 4, 25, 5, 50, 5)
+ datetime.datetime(2003, 4, 25, 13, 27, 12)]
+
+ .. ELAPSED HOURs:
+[36949 36957]
+
+ .. SPEEDs:
+[918 939]
+
+----------
+
+ ** CLUSTER #131 (size=2):
+
+ .. DATETIMEs:
+[datetime.datetime(2003, 5, 16, 1, 31, 41)
+ datetime.datetime(2003, 5, 16, 4, 6, 5)]
+
+ .. ELAPSED HOURs:
+[37449 37452]
+
+ .. SPEEDs:
+[857 826]
+
+----------
+
+ ** CLUSTER #132 (size=2):
+
+ .. DATETIMEs:
+[datetime.datetime(2003, 6, 2, 0, 30, 7)
+ datetime.datetime(2003, 6, 2, 8, 54, 5)]
+
+ .. ELAPSED HOURs:
+[37856 37864]
+
+ .. SPEEDs:
+[1451 1007]
+
+----------
+
+ ** CLUSTER #133 (size=3):
+
+ .. DATETIMEs:
+[datetime.datetime(2003, 6, 4, 0, 54, 5)
+ datetime.datetime(2003, 6, 4, 2, 54, 7)
+ datetime.datetime(2003, 6, 4, 7, 31, 39)]
+
+ .. ELAPSED HOURs:
+[37904 37906 37911]
+
+ .. SPEEDs:
+[ 882 1052  861]
+
+----------
+
+ ** CLUSTER #134 (size=2):
+
+ .. DATETIMEs:
+[datetime.datetime(2003, 6, 23, 9, 30, 5)
+ datetime.datetime(2003, 6, 23, 11, 30, 7)]
+
+ .. ELAPSED HOURs:
+[38369 38371]
+
+ .. SPEEDs:
+[835 852]
+
+----------
+
+ ** CLUSTER #135 (size=3):
+
+ .. DATETIMEs:
+[datetime.datetime(2003, 8, 26, 8, 50, 5)
+ datetime.datetime(2003, 8, 26, 13, 27, 10)
+ datetime.datetime(2003, 8, 26, 14, 50, 5)]
+
+ .. ELAPSED HOURs:
+[39904 39909 39910]
+
+ .. SPEEDs:
+[889 841 935]
+
+----------
+
+ ** CLUSTER #136 (size=3):
+
+ .. DATETIMEs:
+[datetime.datetime(2003, 9, 27, 8, 10, 5)
+ datetime.datetime(2003, 9, 27, 11, 0, 7)
+ datetime.datetime(2003, 9, 27, 14, 0, 7)]
+
+ .. ELAPSED HOURs:
+[40672 40674 40677]
+
+ .. SPEEDs:
+[ 979 1151 1209]
+
+----------
+
+ ** CLUSTER #137 (size=3):
+
+ .. DATETIMEs:
+[datetime.datetime(2003, 10, 4, 13, 31, 44)
+ datetime.datetime(2003, 10, 4, 19, 31, 41)
+ datetime.datetime(2003, 10, 4, 21, 54, 5)]
+
+ .. ELAPSED HOURs:
+[40845 40851 40853]
+
+ .. SPEEDs:
+[1679 1435 1149]
+
+----------
+
+ ** CLUSTER #138 (size=3):
+
+ .. DATETIMEs:
+[datetime.datetime(2003, 10, 9, 8, 30, 5)
+ datetime.datetime(2003, 10, 9, 9, 6, 5)
+ datetime.datetime(2003, 10, 9, 13, 54, 5)]
+
+ .. ELAPSED HOURs:
+[40960 40961 40965]
+
+ .. SPEEDs:
+[ 816  832 1262]
+
+----------
+
+ ** CLUSTER #139 (size=2):
+
+ .. DATETIMEs:
+[datetime.datetime(2003, 10, 21, 23, 30, 5)
+ datetime.datetime(2003, 10, 22, 3, 54, 5)]
+
+ .. ELAPSED HOURs:
+[41263 41267]
+
+ .. SPEEDs:
+[ 984 1116]
+
+----------
+
+ ** CLUSTER #140 (size=2):
+
+ .. DATETIMEs:
+[datetime.datetime(2003, 10, 22, 16, 30, 5)
+ datetime.datetime(2003, 10, 22, 20, 6, 5)]
+
+ .. ELAPSED HOURs:
+[41280 41284]
+
+ .. SPEEDs:
+[1026 1293]
+
+----------
+
+ ** CLUSTER #141 (size=2):
+
+ .. DATETIMEs:
+[datetime.datetime(2003, 10, 23, 7, 31, 39)
+ datetime.datetime(2003, 10, 23, 8, 54, 5)]
+
+ .. ELAPSED HOURs:
+[41295 41296]
+
+ .. SPEEDs:
+[ 880 1475]
+
+----------
+
+ ** CLUSTER #142 (size=3):
+
+ .. DATETIMEs:
+[datetime.datetime(2003, 10, 23, 20, 6, 5)
+ datetime.datetime(2003, 10, 24, 2, 54, 5)
+ datetime.datetime(2003, 10, 24, 5, 30, 6)]
+
+ .. ELAPSED HOURs:
+[41308 41314 41317]
+
+ .. SPEEDs:
+[1334 1075 1404]
+
+----------
+
+ ** CLUSTER #143 (size=3):
+
+ .. DATETIMEs:
+[datetime.datetime(2003, 10, 27, 8, 30, 5)
+ datetime.datetime(2003, 10, 27, 13, 31, 47)
+ datetime.datetime(2003, 10, 27, 20, 30, 6)]
+
+ .. ELAPSED HOURs:
+[41392 41397 41404]
+
+ .. SPEEDs:
+[1263 1066 1022]
+
+----------
+
+ ** CLUSTER #144 (size=3):
+
+ .. DATETIMEs:
+[datetime.datetime(2003, 10, 28, 6, 30, 5)
+ datetime.datetime(2003, 10, 28, 9, 30, 5)
+ datetime.datetime(2003, 10, 28, 11, 30, 5)]
+
+ .. ELAPSED HOURs:
+[41414 41417 41419]
+
+ .. SPEEDs:
+[ 834 1002 2686]
+
+----------
+
+ ** CLUSTER #145 (size=3):
+
+ .. DATETIMEs:
+[datetime.datetime(2003, 11, 2, 9, 30, 5)
+ datetime.datetime(2003, 11, 2, 17, 30, 5)
+ datetime.datetime(2003, 11, 3, 1, 59, 24)]
+
+ .. ELAPSED HOURs:
+[41537 41545 41553]
+
+ .. SPEEDs:
+[2284 2647 1016]
+
+----------
+
+ ** CLUSTER #146 (size=2):
+
+ .. DATETIMEs:
+[datetime.datetime(2003, 11, 4, 12, 6, 6)
+ datetime.datetime(2003, 11, 4, 19, 54, 5)]
+
+ .. ELAPSED HOURs:
+[41588 41595]
+
+ .. SPEEDs:
+[1467 2031]
+
+----------
+
+ ** CLUSTER #147 (size=2):
+
+ .. DATETIMEs:
+[datetime.datetime(2003, 11, 12, 10, 54, 6)
+ datetime.datetime(2003, 11, 12, 18, 30, 5)]
+
+ .. ELAPSED HOURs:
+[41778 41786]
+
+ .. SPEEDs:
+[1170  998]
+
+----------
+
+ ** CLUSTER #148 (size=2):
+
+ .. DATETIMEs:
+[datetime.datetime(2003, 11, 18, 8, 50, 5)
+ datetime.datetime(2003, 11, 18, 9, 50, 5)]
+
+ .. ELAPSED HOURs:
+[41920 41921]
+
+ .. SPEEDs:
+[1674 1532]
+
+----------
+
+ ** CLUSTER #149 (size=2):
+
+ .. DATETIMEs:
+[datetime.datetime(2003, 11, 21, 19, 27, 16)
+ datetime.datetime(2003, 11, 22, 1, 50, 5)]
+
+ .. ELAPSED HOURs:
+[42003 42009]
+
+ .. SPEEDs:
+[905 801]
+
+----------
+
+ ** CLUSTER #150 (size=2):
+
+ .. DATETIMEs:
+[datetime.datetime(2003, 12, 2, 5, 50, 5)
+ datetime.datetime(2003, 12, 2, 10, 50, 5)]
+
+ .. ELAPSED HOURs:
+[42253 42258]
+
+ .. SPEEDs:
+[ 937 1300]
+
+----------
+
+ ** CLUSTER #151 (size=2):
+
+ .. DATETIMEs:
+[datetime.datetime(2004, 1, 7, 4, 6, 7)
+ datetime.datetime(2004, 1, 7, 10, 30, 29)]
+
+ .. ELAPSED HOURs:
+[43116 43122]
+
+ .. SPEEDs:
+[1861 2153]
+
+----------
+
+ ** CLUSTER #152 (size=2):
+
+ .. DATETIMEs:
+[datetime.datetime(2004, 4, 8, 10, 30, 19)
+ datetime.datetime(2004, 4, 8, 13, 31, 42)]
+
+ .. ELAPSED HOURs:
+[45330 45333]
+
+ .. SPEEDs:
+[1320  964]
+
+----------
+
+ ** CLUSTER #153 (size=3):
+
+ .. DATETIMEs:
+[datetime.datetime(2004, 4, 10, 23, 6, 53)
+ datetime.datetime(2004, 4, 11, 4, 30, 6)
+ datetime.datetime(2004, 4, 11, 11, 54, 5)]
+
+ .. ELAPSED HOURs:
+[45391 45396 45403]
+
+ .. SPEEDs:
+[ 835 1953 1276]
+
+----------
+
+ ** CLUSTER #154 (size=2):
+
+ .. DATETIMEs:
+[datetime.datetime(2004, 6, 2, 18, 58, 15)
+ datetime.datetime(2004, 6, 2, 23, 15, 44)]
+
+ .. ELAPSED HOURs:
+[46658 46663]
+
+ .. SPEEDs:
+[ 899 1174]
+
+----------
+
+ ** CLUSTER #155 (size=2):
+
+ .. DATETIMEs:
+[datetime.datetime(2004, 10, 30, 9, 54, 5)
+ datetime.datetime(2004, 10, 30, 16, 54, 5)]
+
+ .. ELAPSED HOURs:
+[50249 50256]
+
+ .. SPEEDs:
+[964 943]
+
+----------
+
+ ** CLUSTER #156 (size=3):
+
+ .. DATETIMEs:
+[datetime.datetime(2004, 11, 6, 1, 31, 51)
+ datetime.datetime(2004, 11, 6, 2, 6, 5)
+ datetime.datetime(2004, 11, 6, 8, 6, 5)]
+
+ .. ELAPSED HOURs:
+[50409 50410 50416]
+
+ .. SPEEDs:
+[ 991  973 1300]
+
+----------
+
+ ** CLUSTER #157 (size=2):
+
+ .. DATETIMEs:
+[datetime.datetime(2004, 12, 12, 9, 0, 5)
+ datetime.datetime(2004, 12, 12, 14, 12, 5)]
+
+ .. ELAPSED HOURs:
+[51280 51286]
+
+ .. SPEEDs:
+[1246  880]
+
+----------
+
+ ** CLUSTER #158 (size=2):
+
+ .. DATETIMEs:
+[datetime.datetime(2005, 1, 19, 8, 29, 39)
+ datetime.datetime(2005, 1, 19, 11, 27, 31)]
+
+ .. ELAPSED HOURs:
+[52192 52195]
+
+ .. SPEEDs:
+[2192 1196]
+
+----------
+
+ ** CLUSTER #159 (size=3):
+
+ .. DATETIMEs:
+[datetime.datetime(2005, 7, 25, 21, 54, 5)
+ datetime.datetime(2005, 7, 26, 4, 54, 29)
+ datetime.datetime(2005, 7, 26, 9, 30, 5)]
+
+ .. ELAPSED HOURs:
+[56693 56700 56705]
+
+ .. SPEEDs:
+[1614 1679 1771]
+
+----------
+
+ ** CLUSTER #160 (size=2):
+
+ .. DATETIMEs:
+[datetime.datetime(2005, 7, 27, 4, 54, 5)
+ datetime.datetime(2005, 7, 27, 11, 6, 5)]
+
+ .. ELAPSED HOURs:
+[56724 56731]
+
+ .. SPEEDs:
+[1979 1306]
+
+----------
+
+ ** CLUSTER #161 (size=2):
+
+ .. DATETIMEs:
+[datetime.datetime(2005, 7, 27, 20, 6, 18)
+ datetime.datetime(2005, 7, 28, 0, 30, 19)]
+
+ .. ELAPSED HOURs:
+[56740 56744]
+
+ .. SPEEDs:
+[1057  858]
+
+----------
+
+ ** CLUSTER #162 (size=2):
+
+ .. DATETIMEs:
+[datetime.datetime(2005, 7, 31, 6, 30, 5)
+ datetime.datetime(2005, 7, 31, 14, 30, 5)]
+
+ .. ELAPSED HOURs:
+[56822 56830]
+
+ .. SPEEDs:
+[ 879 1134]
+
+----------
+
+ ** CLUSTER #163 (size=2):
+
+ .. DATETIMEs:
+[datetime.datetime(2005, 9, 4, 14, 48, 5)
+ datetime.datetime(2005, 9, 4, 22, 36, 5)]
+
+ .. ELAPSED HOURs:
+[57670 57678]
+
+ .. SPEEDs:
+[988 982]
+
+----------
+
+ ** CLUSTER #164 (size=2):
+
+ .. DATETIMEs:
+[datetime.datetime(2005, 9, 11, 13, 0, 53)
+ datetime.datetime(2005, 9, 11, 20, 57, 33)]
+
+ .. ELAPSED HOURs:
+[57836 57844]
+
+ .. SPEEDs:
+[1930  886]
+
+----------
+
+ ** CLUSTER #165 (size=2):
+
+ .. DATETIMEs:
+[datetime.datetime(2005, 9, 13, 20, 0, 5)
+ datetime.datetime(2005, 9, 13, 23, 36, 5)]
+
+ .. ELAPSED HOURs:
+[57891 57895]
+
+ .. SPEEDs:
+[1820 1041]
+
+----------
+
+ ** CLUSTER #166 (size=2):
+
+ .. DATETIMEs:
+[datetime.datetime(2006, 1, 26, 3, 54, 4)
+ datetime.datetime(2006, 1, 26, 9, 6, 6)]
+
+ .. ELAPSED HOURs:
+[61115 61121]
+
+ .. SPEEDs:
+[1018  802]
+
+----------
+
+ ** CLUSTER #167 (size=2):
+
+ .. DATETIMEs:
+[datetime.datetime(2006, 11, 5, 14, 6, 4)
+ datetime.datetime(2006, 11, 5, 17, 54, 4)]
+
+ .. ELAPSED HOURs:
+[67918 67921]
+
+ .. SPEEDs:
+[1247 2151]
+
+----------
+
+ ** CLUSTER #168 (size=2):
+
+ .. DATETIMEs:
+[datetime.datetime(2006, 11, 6, 17, 54, 4)
+ datetime.datetime(2006, 11, 7, 0, 54, 4)]
+
+ .. ELAPSED HOURs:
+[67945 67952]
+
+ .. SPEEDs:
+[2353  923]
+
+----------
+
