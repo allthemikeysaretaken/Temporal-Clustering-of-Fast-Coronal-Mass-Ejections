@@ -67,19 +67,17 @@ We then calculated the moment estimator of the extremal index as a function of s
 
 ![Moment Estimators & Time Threshold](https://i.imgur.com/ywdHHwd.png)    
 
+The analysis results are summarized in the table below.
 
-Once these clusters have been obtained, we can note various cluster statistics. These include relative statistics, such as the average cluster size and duration, as well as histograms of the intra-cluster times (time in-between events within a cluster), intra-cluster durations (duration of cluster), and inter-cluster durations (time in-between clusters). 
+![Table of Results](https://i.imgur.com/zSmhfyn.png)    
 
+Using the clusters obtained by applying the time threshold, we can note various cluster statistics. These include relative statistics, such as the average cluster size and duration, as well as histograms of the intra-cluster times (time in-between events within a cluster), intra-cluster durations (duration of cluster), and inter-cluster durations (time in-between clusters). 
 
 ![Relative Clustering Statistics](https://i.imgur.com/7QpEnaD.png)    
 
 ![Intra-Event Times](https://i.imgur.com/B6rs5Nf.png)    
 
 ![Intra-Cluster Durations](https://i.imgur.com/VF7Madz.png)    
-
-These results are summarized in the table below.
-
-![Table of Results](https://i.imgur.com/zSmhfyn.png)    
 
 [Previous results in the literature](https://arxiv.org/abs/1110.1787) suggest that a single AR cannot produce more than one fast CME within a time-interval of 15 hours and that the average waiting time for same-AR CMEs is 8 hours. Our results are consistent with this observation. However, we also find multiple extreme events that occur within time-scales less than 15 hours and some less than 8 hours; some are only one hour apart! To resolve this, we suggest that these extreme events separated by time-scales less than 15 hours are produced by networks of multiple ARs; this was the case for many of the observed extreme events and has also [been observed independently](https://arxiv.org/abs/1505.01384). 
 
