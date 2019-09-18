@@ -1,5 +1,5 @@
 import os
-from PIL import Image
+from PIL import Image, ImageChops
 from copy import deepcopy
 import datetime
 import numpy as np
@@ -94,6 +94,17 @@ class VisualEditor():
         if isinstance(args, int):
             facecolors = [cmap(idx/args) for idx in range(args)]
         return facecolors
+
+    @staticmethod
+    def trim_image(path):
+        """ """
+        img = Image.open(path)
+        bgd = Image.new(img.mode, img.size, img.getpixel((0,0)))
+        diff = ImageChops.difference(img, bgd)
+        diff = ImageChops.add(diff, diff, 2.0, -100)
+        bbox = diff.getbbox()
+        return img.crop(bbox)
+
 
 class FigureOptions(VisualEditor):
 
@@ -258,3 +269,13 @@ class FigureOptions(VisualEditor):
                 res = Image.new('RGB', img.size, (255, 255, 255))
                 res.paste(img, mask=img.split()[3])
                 res.save(save_path, 'EPS')
+
+    def extract_trimmed_image(self, path):
+        """ """
+        img = self.trim_image(path)
+        if self.saveloc is None:
+            img.show()
+        else:
+            name, extension = os.path.splitext(path)
+            savepath = '{}__trim{}'.format(name, extension)
+            img.save(savepath)
