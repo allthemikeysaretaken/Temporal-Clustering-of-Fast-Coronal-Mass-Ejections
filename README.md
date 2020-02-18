@@ -119,7 +119,7 @@ When viewing the frequency comparisons between solar events, one has the option 
 
 **Example - CME Speed Distribution**
 
-
+The following code (via `main_speed_series.py` in `PyCodes`) can be used to view the distribution of cme speeds. These can be viewed as probability distributions, distributions of observed events, histograms, optimized fits, additional methods to accentuate the distribution tail, and the error-space associated with the desired error metric used to optimize the fits. 
 
 The directory-tree is identical to the directory-tree of this repository. In the first section, make sure to specify the home directory `dir_home` and import the necessary modules from `PyCodes`. 
 
@@ -213,7 +213,7 @@ One can also view the error-space surrounding the extremum of the error function
 
 ![2-D Contour Map of G-Test Error-Space](https://i.imgur.com/cBSZZx3.png)  
 
-
+**Example - Time-Series Analysis**
 
 
 
