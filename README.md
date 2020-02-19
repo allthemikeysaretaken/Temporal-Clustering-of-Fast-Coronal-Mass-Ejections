@@ -343,4 +343,8 @@ One can also view the tabulated results of this analysis.
         TS.view_cluster_analysis_table(extreme_value=extreme_value, save=True, **cluster_search_kwargs)
         TS.view_clusters_by_size_table(extreme_value=extreme_value, save=True, **cluster_search_kwargs)
 
+![Extreme-Value Distribution Analysis Table](https://i.imgur.com/PeYnkwu.png)  
+
+![Cluster Analysis Table](https://i.imgur.com/fQ2gzIB.png)  
+
 ##
