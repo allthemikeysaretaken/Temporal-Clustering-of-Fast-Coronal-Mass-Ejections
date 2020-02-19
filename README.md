@@ -301,10 +301,46 @@ The extremal index, which is used to quantify the amount of temporal clustering 
     TS.view_point_estimators(layout='vertical', save=True, figsize=(7,7), sharex=True, sharey=True)
     TS.view_point_estimators(layout='double-vertical', save=True, figsize=(7,7), sharex=True, sharey=True)
 
+The extremal moment estimator (denoted by theta) - which is taken to be a function of the extreme value (CME speed in this example) - is used to obtain the time-threshold that organizes extreme events into clusters. Two different methods exist to calculate the extremal moment estimator (due to different biases), both of which are in agreement. One can also set a baseline value of the extremal moment estimator to see how the corresponding time-threshold is affected, as shown in the figure below. 
 
+    ## MOMENT ESTIMATORS & TIME-THRESHOLDS
+    TS.load_moment_estimators_and_time_thresholds(all_extreme_values, baseline=0.5)
+    TS.view_moment_estimators_with_time_threshold(save=True, figsize=(7,7), sharex=True) # show_max_extreme_value=True,
 
+    ## LOAD CLUSTERS
+    TS.load_clusters(extreme_values, bias='threshold') # bias='first-order'
 
+![Extremal Moment Estimators & Time-Thresholds as function of Speed](https://i.imgur.com/s41isKQ.png)  
 
+It is important to note that lone clusters (ie, clusters containing a single extreme event) are *not* ignored. Each of the subsequent cluster analyses have the option of searching for clusters that satisfy specified criteria; if not specified, all clusters will be evaluated.
 
+    cluster_search_kwargs = dict()
+    cluster_search_kwargs['search_parameters'] = 'cluster size'
+    cluster_search_kwargs['search_conditions'] = 'greater than or equal'
+    cluster_search_kwargs['search_values'] = 2
+
+    ## VIEW CLUSTERS CHRONOLOGICALLY
+    TS.view_chronological_clusters(parameter='cluster size', extreme_values=extreme_values, save=True, figsize=(7,7), rotation=15, sharex=True, **cluster_search_kwargs)
+    TS.view_chronological_clusters(parameter='cluster size', statistic='max', extreme_values=extreme_values, save=True, figsize=(7,7), rotation=15, sharex=True, **cluster_search_kwargs)
+    TS.view_chronological_clusters(parameter='speed', statistic='max', extreme_values=extreme_values, save=True, figsize=(7,7), rotation=15, sharex=True, **cluster_search_kwargs)
+    TS.view_chronological_clusters(parameter='speed', statistic='mean', extreme_values=extreme_values, save=True, figsize=(7,7), rotation=15, sharex=True, **cluster_search_kwargs)
+    
+    ## VIEW RELATIVE STATISTICS OF CLUSTERS
+    TS.view_relative_cluster_statistics(extreme_values=extreme_values, save=True, figsize=(7,7), **cluster_search_kwargs)
+
+    ## VIEW INTRA-TIME, INTRA-DURATION & INTER-DURATION HISTOGRAMS OF CLUSTERS
+    TS.view_cluster_duration_histograms(extreme_values=extreme_values, layout='overlay', show_intra_times=True, show_intra_durations=True, show_inter_durations=True, save=True, figsize=(7,7), **cluster_search_kwargs)
+    TS.view_cluster_duration_histograms(extreme_values=extreme_values, layout='vertical', show_intra_times=True, show_intra_durations=True, show_inter_durations=True, save=True, figsize=(7,7), sharex=True, sharey=True, **cluster_search_kwargs)
+    TS.view_cluster_duration_histograms(extreme_values=extreme_values, layout='double-vertical', show_intra_times=True, show_intra_durations=True, show_inter_durations=True, save=True, figsize=(7,7), sharex=True, sharey=True, **cluster_search_kwargs)
+    TS.view_cluster_duration_histograms(extreme_values=extreme_values, layout='overlay', zoom_in=True, show_intra_times=True, show_intra_durations=True, show_inter_durations=True, save=True, figsize=(7,7), **cluster_search_kwargs)
+    TS.view_cluster_duration_histograms(extreme_values=extreme_values, layout='vertical', zoom_in=True, show_intra_times=True, show_intra_durations=True, show_inter_durations=True, save=True, figsize=(7,7), sharex=True, sharey=True, **cluster_search_kwargs)
+    TS.view_cluster_duration_histograms(extreme_values=extreme_values, layout='double-vertical', zoom_in=True, show_intra_times=True, show_intra_durations=True, show_inter_durations=True, save=True, figsize=(7,7), sharex=True, sharey=True, **cluster_search_kwargs)
+
+One can also view the tabulated results of this analysis.
+
+    for extreme_value in extreme_values:
+        TS.view_extreme_event_analysis_table(extreme_value=extreme_value, save=True)
+        TS.view_cluster_analysis_table(extreme_value=extreme_value, save=True, **cluster_search_kwargs)
+        TS.view_clusters_by_size_table(extreme_value=extreme_value, save=True, **cluster_search_kwargs)
 
 ##
