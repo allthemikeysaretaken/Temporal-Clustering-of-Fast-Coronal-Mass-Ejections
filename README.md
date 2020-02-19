@@ -181,12 +181,19 @@ Make sure to specify the layout when viewing a figure.
     layout = 'vertical'
 
 When viewing the distribution, one has the option of viewing any combination of the following: 
+
 a)  histogram (as bars and/or steps)
+
 b)  the fit via optimized parameters
+
 c)  the confidence interval (obtained from the optimized parameters)
+
 d)  vertical lines denoting distribution statistics (such as mean)
+
 e)  highlighting the tail (must define value and condition for extreme event)
+
 f)  arrow pointing to the tail (must define value and condition for extreme event)
+
 
 The image shown below shows the fit via optimized parameters (b), the confidence interval (c), and vertical lines (d).
 
@@ -214,6 +221,87 @@ One can also view the error-space surrounding the extremum of the error function
 ![2-D Contour Map of G-Test Error-Space](https://i.imgur.com/cBSZZx3.png)  
 
 **Example - Time-Series Analysis**
+
+The following code (via `main_time_series.py` in `PyCodes`) can be used to view the results of the time-series analysis.
+
+The directory-tree is identical to the directory-tree of this repository. In the first section, make sure to specify the home directory `dir_home` and import the necessary modules from `PyCodes`. 
+
+    from time_series_methods import *
+
+    ## SPECIFY DIRECTORIES EXPLICITLY
+    dir_home = '/Users/.../'
+    dir_data = '{}Data/'.format(dir_home)
+    dir_figs = '{}Figures/'.format(dir_home)
+    dir_time_series = '{}TimeSeries/'.format(dir_figs)
+    ##
+
+In the next section, data (files in `Data`) is read and stored. For this example, the data consists of CMEs. Since the time-series analysis consists of methods that require randomization, one can reproduce the results by setting a random state seed.
+
+    ## LOAD DATABASE
+    DB = DataBase(directory=dir_data)
+    DB.load_data(read_soho_lasco=True)
+    ##
+
+    ## SET RANDOM STATE SEED
+    np.random.seed(327)
+    ##
+
+One can select a subset of the stored CME data that satisfies some specified conditions. 
+
+    ## INITIALIZE TIME-SERIES
+    timestep = 'hour'
+    TS = TimeSeries(DB, timestep=timestep, event_type='cme', ref_parameter='speed', directory=dir_time_series)
+
+    ## LOAD EVENTS
+    extreme_values = (800, 1000)
+    all_extreme_values = np.arange(500, 2025, 25).astype(int)
+    solar_cycles = (23, 24)
+    speed_types = ('second order initial speed', 'linear speed')
+    nan_policy = 'replace' # 'discard'
+    nan_repl = 1
+    nan_kwargs = dict(policy=nan_policy, repl=nan_repl)    
+    for solar_cycle in solar_cycles:
+        for speed_type in speed_types:
+            nan_kwargs['parameter'] = speed_type
+            TS.load_events(extreme_parameter=speed_type, extrema='maximum', search_parameters=('solar cycle', 'cycle type'), search_conditions=('equal', 'equal'), search_values=(solar_cycle, 'high-activity'), nan_kwargs=nan_kwargs)
+
+The time-series analysis first looks at the inter-exceedance times in-between extreme events.
+
+    TS.load_inter_exceedances(all_extreme_values)
+    TS.load_inter_exceedance_distributions(extreme_values, bin_width=30) # bin_width=15
+    TS.view_inter_exceedance_histograms(extreme_values, layout='double-vertical', yspace=50, figsize=(7,7), sharex=True, sharey=True, save=True) # yspace=25
+
+The time-series analysis then obtains the unbiased estimators that parametrize the tail of the extreme-value distribution. When viewing histograms of these parameters, the observed bin-counts generally increase as the number of resamples increase; one can alternatively view the normalized histograms. These parameters include alpha, intercept C, and extremal index theta.
+
+    statistics = 'mean' # ('skew', 'kurtosis') # None
+    for attribute in ('alpha', 'intercept', 'theta'):
+        TS.view_unbiased_estimators_histograms(attribute, layout='overlay', counts_type='normalized', statistics=statistics, figsize=(7,7), save=True)
+        TS.view_unbiased_estimators_histograms(attribute, layout='double-vertical', counts_type='observed', statistics=statistics, figsize=(7,7), sharex=True, sharey=True, save=True)
+
+The figure below shows that the maximum CME speeds within progressively increasing sub-intervals of time obey a power-law. This power-law is obtained through the use of a weighted least-squares routine, for which the weights account for the bias-variance trade-off at larger time-scales.
+
+    TS.view_max_spectrum(layout='vertical', show_errors=True, facecolors=('gray', 'darkorange', 'steelblue'), save=True, figsize=(7,7), sharex=True, sharey=True)
+    TS.view_max_spectrum(layout='double-vertical', show_errors=True, facecolors=('gray', 'darkorange', 'steelblue'), save=True, figsize=(7,7), sharex=True, sharey=True)
+    TS.view_max_spectrum(layout='vertical', show_fit=True, facecolors=('darkorange', 'r'), save=True, figsize=(7,7), sharex=True, sharey=True)
+    TS.view_max_spectrum(layout='double-vertical', show_fit=True, facecolors=('darkorange', 'r'), save=True, figsize=(7,7), sharex=True, sharey=True)
+    TS.view_max_spectrum(layout='vertical', show_errors=True, show_fit=True, facecolors=('gray', 'darkorange', 'mediumpurple', 'r'), save=True, figsize=(7,7), sharex=True, sharey=True)
+    TS.view_max_spectrum(layout='double-vertical', show_errors=True, show_fit=True, facecolors=('gray', 'darkorange', 'mediumpurple', 'r'), save=True, figsize=(7,7), sharex=True, sharey=True)
+    #
+    TS.view_max_spectrum(layout='vertical', show_errors=True, show_logscale=True, facecolors=('gray', 'darkorange', 'steelblue'), save=True, figsize=(7,7), sharex=True, sharey=True)
+    TS.view_max_spectrum(layout='double-vertical', show_errors=True, show_logscale=True, facecolors=('gray', 'darkorange', 'steelblue'), save=True, figsize=(7,7), sharex=True, sharey=True)
+    TS.view_max_spectrum(layout='vertical', show_fit=True, show_logscale=True, facecolors=('darkorange', 'r'), save=True, figsize=(7,7), sharex=True, sharey=True)
+    TS.view_max_spectrum(layout='double-vertical', show_fit=True, show_logscale=True, facecolors=('darkorange', 'r'), save=True, figsize=(7,7), sharex=True, sharey=True)
+    TS.view_max_spectrum(layout='vertical', show_errors=True, show_fit=True, show_logscale=True, facecolors=('gray', 'darkorange', 'mediumpurple', 'r'), save=True, figsize=(7,7), sharex=True, sharey=True)
+    TS.view_max_spectrum(layout='double-vertical', show_errors=True, show_fit=True, show_logscale=True, facecolors=('gray', 'darkorange', 'mediumpurple', 'r'), save=True, figsize=(7,7), sharex=True, sharey=True)
+
+![Power-Law](https://i.imgur.com/qgKuJb7.png)  
+
+The extremal index, which is used to quantify the amount of temporal clustering of the extreme-value distribution, is a global estimate (ie, time-scale independent). The point estimators quantifies the same thing, but is taken to be time-scale dependent.
+
+    TS.view_point_estimators(layout='vertical', save=True, figsize=(7,7), sharex=True, sharey=True)
+    TS.view_point_estimators(layout='double-vertical', save=True, figsize=(7,7), sharex=True, sharey=True)
+
+
 
 
 
