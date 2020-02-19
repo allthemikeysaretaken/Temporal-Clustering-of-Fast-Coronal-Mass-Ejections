@@ -246,7 +246,7 @@ In the next section, data (files in `Data`) is read and stored. For this example
     np.random.seed(327)
     ##
 
-One can select a subset of the stored CME data that satisfies some specified conditions. 
+One can select a subset of the stored CME data that satisfies some specified conditions. Note that all figures shown for this example correspond to the extreme value of `800`.
 
     ## INITIALIZE TIME-SERIES
     timestep = 'hour'
@@ -265,11 +265,13 @@ One can select a subset of the stored CME data that satisfies some specified con
             nan_kwargs['parameter'] = speed_type
             TS.load_events(extreme_parameter=speed_type, extrema='maximum', search_parameters=('solar cycle', 'cycle type'), search_conditions=('equal', 'equal'), search_values=(solar_cycle, 'high-activity'), nan_kwargs=nan_kwargs)
 
-The time-series analysis first looks at the inter-exceedance times in-between extreme events.
+The time-series analysis first looks at the inter-exceedance times in-between extreme events, as shown in the figure below.
 
     TS.load_inter_exceedances(all_extreme_values)
     TS.load_inter_exceedance_distributions(extreme_values, bin_width=30) # bin_width=15
     TS.view_inter_exceedance_histograms(extreme_values, layout='double-vertical', yspace=50, figsize=(7,7), sharex=True, sharey=True, save=True) # yspace=25
+
+![Distribution of Inter-Exceedance Times](https://i.imgur.com/wTYRmwA.png)  
 
 The time-series analysis then obtains the unbiased estimators that parametrize the tail of the extreme-value distribution. When viewing histograms of these parameters, the observed bin-counts generally increase as the number of resamples increase; one can alternatively view the normalized histograms. These parameters include alpha, intercept C, and extremal index theta.
 
@@ -328,6 +330,8 @@ It is important to note that lone clusters (ie, clusters containing a single ext
     ## VIEW RELATIVE STATISTICS OF CLUSTERS
     TS.view_relative_cluster_statistics(extreme_values=extreme_values, save=True, figsize=(7,7), **cluster_search_kwargs)
 
+One can view the distribution of intra-times (time in-between consecutive extreme events within each cluster), the distribution of intra-durations (the total duration of each cluster), and the distribution of inter-exceedance times (time in-between clusters). The figure below shows the distribution of intra-times.
+
     ## VIEW INTRA-TIME, INTRA-DURATION & INTER-DURATION HISTOGRAMS OF CLUSTERS
     TS.view_cluster_duration_histograms(extreme_values=extreme_values, layout='overlay', show_intra_times=True, show_intra_durations=True, show_inter_durations=True, save=True, figsize=(7,7), **cluster_search_kwargs)
     TS.view_cluster_duration_histograms(extreme_values=extreme_values, layout='vertical', show_intra_times=True, show_intra_durations=True, show_inter_durations=True, save=True, figsize=(7,7), sharex=True, sharey=True, **cluster_search_kwargs)
@@ -335,6 +339,8 @@ It is important to note that lone clusters (ie, clusters containing a single ext
     TS.view_cluster_duration_histograms(extreme_values=extreme_values, layout='overlay', zoom_in=True, show_intra_times=True, show_intra_durations=True, show_inter_durations=True, save=True, figsize=(7,7), **cluster_search_kwargs)
     TS.view_cluster_duration_histograms(extreme_values=extreme_values, layout='vertical', zoom_in=True, show_intra_times=True, show_intra_durations=True, show_inter_durations=True, save=True, figsize=(7,7), sharex=True, sharey=True, **cluster_search_kwargs)
     TS.view_cluster_duration_histograms(extreme_values=extreme_values, layout='double-vertical', zoom_in=True, show_intra_times=True, show_intra_durations=True, show_inter_durations=True, save=True, figsize=(7,7), sharex=True, sharey=True, **cluster_search_kwargs)
+
+![Intra-Times Distribution](https://i.imgur.com/9MoFEa1.png)  
 
 One can view the tabulated results of the extreme-value distribution analysis and the cluster analysis, which are both shown below. One can also view the table of cluster statistics as a function of cluster-size.
 
