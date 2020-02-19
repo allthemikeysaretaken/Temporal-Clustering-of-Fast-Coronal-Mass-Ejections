@@ -336,7 +336,7 @@ It is important to note that lone clusters (ie, clusters containing a single ext
     TS.view_cluster_duration_histograms(extreme_values=extreme_values, layout='vertical', zoom_in=True, show_intra_times=True, show_intra_durations=True, show_inter_durations=True, save=True, figsize=(7,7), sharex=True, sharey=True, **cluster_search_kwargs)
     TS.view_cluster_duration_histograms(extreme_values=extreme_values, layout='double-vertical', zoom_in=True, show_intra_times=True, show_intra_durations=True, show_inter_durations=True, save=True, figsize=(7,7), sharex=True, sharey=True, **cluster_search_kwargs)
 
-One can also view the tabulated results of this analysis.
+One can view the tabulated results of the extreme-value distribution analysis and the cluster analysis, which are both shown below. One can also view the table of cluster statistics as a function of cluster-size.
 
     for extreme_value in extreme_values:
         TS.view_extreme_event_analysis_table(extreme_value=extreme_value, save=True)
