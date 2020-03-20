@@ -226,9 +226,9 @@ class EventSearcher(ConditionMapping):
         search_args = np.array([parameters, conditions, values])
         condition = (search_args == None)
         if np.all(condition == True):
+            key = list(self.events.keys())[0]
+            indices = np.arange(self.events[key].size).astype(int)
             result = {key : arr for key, arr in self.events.items()}
-            key = list(self.clusters.keys())[0]
-            indices = np.arange(self.clusters[key].size).astype(int)
             return result, indices
         else:
             parameters, conditions, values, modifiers = self.autocorrect_search_inputs(parameters, conditions, values, modifiers)
